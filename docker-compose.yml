@@ -4,8 +4,7 @@ networks:
   monitor-net:
     driver: bridge
 
-volumes:
-
+services:
   cadvisor:
     image: google/cadvisor:latest
     container_name: cadvisor
